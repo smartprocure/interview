@@ -1,0 +1,10 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "public": "../public/",
+  "paginate": {
+    "default": 52,
+    "max": 52
+  },
+  "nedb": "../data"
+}

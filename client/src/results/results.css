@@ -1,0 +1,46 @@
+
+ul {
+    list-style-type: none;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  
+  ul li {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 20px 0;
+  }
+  
+  ul li i {
+    font-size: 24px;
+    font-weight: bold;
+    color: green;
+    margin: 20px;
+    min-width: 24px;
+    text-align: right;
+  }
+  
+  ul li p {
+    font-size: 22px;
+    word-wrap: break-word;
+    width: 94%;
+    float: left;
+    color: green;
+  }
+  
+  .incorrect, .incorrect p {
+    color: red;
+  }
+  
+  ul li div p:nth-of-type(2) {
+    font-weight: bold;
+    margin: 5sspx 0;
+  }
+
+  ul li div.incorrect p:nth-of-type(3) {
+    font-weight: bold;
+    color: green;
+  }

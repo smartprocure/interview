@@ -1,0 +1,19 @@
+.page.quiz .question {
+    padding: 36px;
+    font-size: 28px;
+    word-wrap: break-word;
+  }
+  
+  #quiz {
+    background: #000;
+  }
+  
+@media screen and (max-width: 600px) {
+    .page.quiz h2 {
+      margin-bottom: 10px;
+    }
+    .page.quiz h4 {
+      margin-bottom: 40px;
+    }
+  
+  }

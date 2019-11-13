@@ -1,0 +1,35 @@
+.landing {
+    background-image: url('../assets/batman1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.page.landing p:first-of-type {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-size: 32px;
+}
+
+.page.landing p:last-of-type {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.landing button {
+  position: absolute;
+  bottom: 20px;
+  right: 24%;
+  width: 52%;
+}
+
+@media screen and (max-width: 500px) {
+  .landing button {
+    position: relative;
+    margin: 20px 24%;
+    width: 52%;
+    right: unset;
+    bottom: unset;
+  }
+}

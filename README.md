@@ -23,8 +23,6 @@ This isn't designed to test creativity or novelty, so here are some example idea
 
 ## Things We Use
 
-Here's a list of the things we use. Using more is better:
-
 - feathersjs
 - mongodb (w/ native mongo driver)
 - react (w/ create-react-app)
